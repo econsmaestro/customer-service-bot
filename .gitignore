@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# trained model weights - large, reproducible via src/train.py (~1-2 min on CPU)
+models/intent_classifier/
+
+# collected user feedback - contains user-submitted text, not for git
+data/feedback_log.jsonl
+
+# business-specific config, not for git
+data/business_profile.json
+
+.venv/
+venv/
