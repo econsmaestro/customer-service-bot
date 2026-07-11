@@ -2,6 +2,8 @@
 
 By Anjaneya Sharma
 
+**Live app:** https://customer-service-bot-chfarewgqhas97edkbb6bb.streamlit.app/
+
 A BERT-based intent classifier for customer support messages, paired with
 personalized replies. Given a message, the model predicts one of six intents
 — `billing`, `technical_support`, `account_management`, `order_status`,
